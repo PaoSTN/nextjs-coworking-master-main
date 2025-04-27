@@ -169,7 +169,7 @@ export default function BookingPage() {
         bookingDate: selectedDate,
         totalPrice: totalPrice
       }
-      
+        
       const response = await fetch('/api/bookings/create', {
         method: 'POST',
         headers: {
